@@ -1,5 +1,6 @@
 {
-	"version":"Sample 1.0.0",
+	"type": "Live2D Model Setting",
+	"name": "m4a1",
 	"model":"model.moc",
 	"textures":[
 		"model.1024/texture_00.png"
