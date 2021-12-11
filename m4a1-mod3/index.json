@@ -26,16 +26,17 @@
 	"motions":{
 		"tap_body":[
 			{"file":"motions/touch_1.mtn"},
-			{"file":"motions/touch_2.mtn"},
+			{"file":"motions/wedding_touch.mtn","sound": "audio/7.mp3"},
+			{"file":"motions/touch_2.mtn","sound": "audio/7.mp3"},
 			{"file":"motions/touch_3.mtn"},
-			{"file":"motions/touch_4.mtn"},
-			{"file":"motions/touch_5.mtn"}
+			{"file":"motions/touch_4.mtn","sound": "audio/4.mp3"},
+			{"file":"motions/touch_5.mtn","sound": "audio/6.mp3"}
 		],
 		"flick_head":[
 			{"file":"motions/wedding_touch.mtn"}
 		],
 		"idle":[
-			{"file":"motions/login.mtn"},
+			{"file":"motions/login.mtn","sound":"audio/2.mp3"},
 			{"file":"motions/shake.mtn"},
 			{"file":"motions/wait_1.mtn"},
 			{"file":"motions/wait_2.mtn"},
