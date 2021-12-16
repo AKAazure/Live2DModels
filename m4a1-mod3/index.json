@@ -1,14 +1,14 @@
 {
 	"type": "Live2D Model Setting",
 	"name": "m4a1",
-	"model":"model.moc",
-	"textures":[
+	"model": "model.moc",
+	"textures": [
 		"model.1024/texture_00.png"
 	],
-	"layout":{
+	"layout": {
 		"center_x": 0,
-        "center_y": 0,
-        "height": 1.8
+		"center_y": 0,
+		"height": 1.8
 	},
 	"hit_areas": [
 		{
@@ -24,32 +24,82 @@
 			"id": "D_REF.BODY"
 		}
 	],
-	"motions":{
-		"tap_body":[
-			{"file":"motions/touch_1.mtn"},
-			{"file":"motions/touch_2.mtn"},
-			{"file":"motions/touch_3.mtn"},
-			{"file":"motions/touch_4.mtn"},
-			{"file":"motions/touch_5.mtn"}
+	"motions": {
+		"greeting":[
+			{
+				"file": "motions/login.mtn",
+				"sound": "audio/M4A1Mod_HELLO_JP.wav"
+			}
 		],
-		"flick_head":[
-			{"file":"motions/wedding_touch.mtn"}
+		"tap_body": [
+			{
+				"file": "motions/login.mtn",
+				"sound":"audio/M4A1Mod_HELLO_JP.wav"
+			},
+			{
+				"file": "motions/touch_1.mtn",
+				"sound": "audio/M4A1Mod_LOADING_JP.wav"
+			},
+			{
+				"file": "motions/wedding_touch.mtn",
+				"sound": "audio/M4A1Mod_DIALOGUEWEDDING_JP.wav"
+			},
+			{
+				"file": "motions/touch_2.mtn",
+				"sound": "audio/M4A1Mod_FIX_JP.wav"
+			},
+			{
+				"file": "motions/touch_3.mtn",
+				"sound": "audio/M4A1Mod_DIALOGUE1_JP.wav"
+			},
+			{
+				"file": "motions/touch_4.mtn",
+				"sound": "audio/M4A1Mod_DIALOGUE2_JP.wav"
+			},
+			{
+				"file": "motions/touch_5.mtn",
+				"sound": "audio/M4A1Mod_DIALOGUE3_JP.wav"
+			}
 		],
-		"idle":[
-			{"file":"motions/login.mtn"},
-			{"file":"motions/shake.mtn"},
-			{"file":"motions/wait_1.mtn"},
-			{"file":"motions/wait_2.mtn"},
-			{"file":"motions/wedding.mtn"},
-			{"file":"motions/daiji_idle_01.mtn"}
+		"flick_head": [
+			{
+				"file": "motions/wedding.mtn",
+				"sound": "audio/M4A1Mod_SOULCONTRACT_JP.wav"
+			}
+		],
+		"idle": [
+
+			{
+				"file": "motions/shake.mtn"
+			},
+			{
+				"file": "motions/wait_1.mtn"
+			},
+			{
+				"file": "motions/wait_2.mtn"
+			},
+			{
+				"file": "motions/daiji_idle_01.mtn"
+			}
 		]
 	},
-	"physics":"physics.json",
-	"hit_areas_custom":{
-		"head_x":[-0.35, 0.6],
-		"head_y":[0.19, -0.2],
-		"body_x":[-0.3, -0.25],
-		"body_y":[0.3, -0.9]
+	"physics": "physics.json",
+	"hit_areas_custom": {
+		"head_x": [
+			-0.35,
+			0.6
+		],
+		"head_y": [
+			0.19,
+			-0.2
+		],
+		"body_x": [
+			-0.3,
+			-0.25
+		],
+		"body_y": [
+			0.3,
+			-0.9
+		]
 	}
-
 }
